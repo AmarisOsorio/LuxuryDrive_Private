@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+/* Cuerpo de Mi Perfil*/
+#bodyMiPerfil {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Contenedor principal */
+.mi-perfil-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  min-height: 100vh; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Foto de perfil */
+.mi-perfil-imagen-container {
+  margin-bottom: 20px;
+}
+
+.mi-perfil-imagen {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 2px solid #000; 
+}
+
+/* Contenedor de la información */
+.mi-perfil-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Campos de texto */
+.mi-perfil-input {
+  border: none;
+  border-bottom: 2px solid #007bff; 
+  font-size: 1rem;
+  padding: 5px;
+  color: #000;
+  background-color: transparent;
+  outline: none;
+  text-align: left; 
+  font-family: "Poppins", sans-serif; 
+  border-radius: 0; 
+  appearance: none; 
+  -webkit-appearance: none;
+}
+
+/* Botón */
+.mi-perfil-boton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; 
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none; 
+}
+
+.mi-perfil-boton:hover {
+  background-color: #0056b3; 
+}
+
+

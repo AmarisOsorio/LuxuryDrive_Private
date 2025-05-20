@@ -1,0 +1,50 @@
+
+  .recovery-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .image-section {
+    flex: 1;
+    background: url('../../public/img/img-login.jpg') no-repeat center center/cover;
+  }
+  
+  .form-section {
+    flex: 1;
+    background-color: #1a1a2e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    color: #ffffff;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #e94560;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #ff6f61;
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.8);
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+  }
