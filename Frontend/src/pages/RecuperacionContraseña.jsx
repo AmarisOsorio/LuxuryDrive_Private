@@ -1,5 +1,5 @@
 import React from 'react';
-import './RecuperacionContraseña.css'; 
+
 
 const PasswordRecovery = () => {
   return (

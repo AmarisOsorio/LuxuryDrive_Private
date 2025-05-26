@@ -11,7 +11,7 @@ const Navbar = () => {
           
           <li className="relative">
             <a
-              href="/"
+              href="/Dashboard"
               className="text-[#a78bfa] underline underline-offset-[6px] decoration-2 decoration-[#a78bfa]"
             >
               Dashboard
@@ -19,13 +19,19 @@ const Navbar = () => {
           </li>
           
           <li>
-            <a href="/Login" className="hover:text-[#a78bfa] transition">
+            <a href="/Empleados" className="hover:text-[#a78bfa] transition">
               Empleados
             </a>
           </li>
           <li>
             <a href="/MiPerfil" className="hover:text-[#a78bfa] transition">
               Perfil
+            </a>
+          </li>
+
+          <li>
+            <a href="/Login" className="hover:text-[#a78bfa] transition">
+              Login
             </a>
           </li>
         
