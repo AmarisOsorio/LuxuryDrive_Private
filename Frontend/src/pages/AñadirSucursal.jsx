@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import RegisterEmployees from "../components/Employees/RegisterEmployees";
-import ListEmployees from "../components/Employees/ListEmployee";
+import RegisterBranches from "../components/Branches/RegisterBranches.jsx"
+import ListBranches from "../components/Branches/ListBranches.jsx";
 import { Toaster } from 'react-hot-toast';
 
-import useDataEmployees from "../components/Employees/hooks/useDataEmployee.jsx";
+import useDataBranches from "../components/Branches/hooks/useDataBranches.jsx";
 
-const Employees = () => {
+const Branches = () => {
   // Efecto para cambiar el título de la página cuando se carga la página
   useEffect(() => {
     document.title = 'Empleados';
@@ -18,36 +18,30 @@ const Employees = () => {
     setId,
     name,
     setName,
-    phoneNumber,
-    setPhoneNumber,
-    email,
-    setEmail,
-    password,
-    setPassword,
-    salaries,
-    setSalaries,
-    idRole,
-    setIdRole,
-    errorEmpleado,
+    address,
+    setAddress,
+    openingHours,
+    setOpeningHours,
+    errorBranches,
     setError,
     success,
     setSuccess,
     loading,
     setLoading,
-    employees,
-    setEmployees,
+    branches,
+    setBranches,
     cleanData,
     handleSubmit,
     fetchData,
-    deleteEmployee,
-    updateEmployee,
+    deleteBranches,
+    updateBranches,
     handleUpdate,
-  } = useDataEmployees();
+  } = useDataBranches();
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-800 mb-6">Gestión de Empleados</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-6">Gestión de Sucursales</h1>
         
        
         <div className="mb-6">
@@ -61,7 +55,7 @@ const Employees = () => {
                 }`}
                 onClick={() => setActiveTab("list")}
               >
-                Lista de Empleados
+                Lista de Sucursales
               </button>
               <button
                 className={`py-2 px-1 border-b-2 font-medium text-sm ${
@@ -74,7 +68,7 @@ const Employees = () => {
                   cleanData();
                 }}
               >
-                {id ? "Editar Empleado" : "Agregar Empleado"}
+                {id ? "Editar Sucursal" : "Agregar Sucursal"}
               </button>
             </nav>
           </div>
@@ -83,42 +77,36 @@ const Employees = () => {
         
         <div>
           {activeTab === "list" && (
-            <ListEmployees
+            <ListBranches
               setId={setId}
               setActiveTab={setActiveTab}
-              updateEmployee={updateEmployee}
+              updateBranches={updateBranches}
               handleUpdate={handleUpdate}
-              deleteEmployee={deleteEmployee}
-              employees={employees}
+              deleteBranches={deleteBranches}
+              branches={branches}
               loading={loading}
             />
           )}
           
           {activeTab === "form" && (
             <div className="flex justify-center">
-              <RegisterEmployees
+              <RegisterBranches
                 id={id}
                 setId={setId}
                 name={name}
                 setName={setName}
-                phoneNumber={phoneNumber}
-                setPhoneNumber={setPhoneNumber}
-                email={email}
-                setEmail={setEmail}
-                password={password}
-                setPassword={setPassword}
-                salaries={salaries}
-                setSalaries={setSalaries}
-                idRole={idRole}
-                setIdRole={setIdRole}
-                errorEmpleado={errorEmpleado}
+                address={address}
+                setAddress={setAddress}
+                openingHours={openingHours}
+                setOpeningHours={setOpeningHours}
+                errorBranches={errorBranches}
                 setError={setError}
                 success={success}
                 setSuccess={setSuccess}
                 loading={loading}
                 setLoading={setLoading}
-                employees={employees}
-                setEmployees={setEmployees}
+                branches={branches}
+                setBranches={setBranches}
                 cleanData={cleanData}
                 handleSubmit={handleSubmit}
                 handleUpdate={handleUpdate}
@@ -137,4 +125,4 @@ const Employees = () => {
   );
 };
 
-export default Employees;
+export default Branches;
