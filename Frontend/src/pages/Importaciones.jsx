@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Search, Menu, Plus, Grid } from 'lucide-react';
+import { Link } from 'react-router-dom'
+
 
 export default function ImportacionesPage() {
   // Estado para los datos de importaciones 
@@ -78,11 +80,12 @@ export default function ImportacionesPage() {
             <Plus className="h-6 w-6 mb-1" />
             <span className="text-center text-sm">Añadir nuevo vehículo</span>
           </button>
-          
+          <Link to="/AñadirSucursal">
           <button className="bg-gray-900 text-white py-6 px-2 rounded-lg w-28 flex flex-col items-center justify-center">
             <Grid className="h-6 w-6 mb-1" />
             <span className="text-center text-sm">Sucursales</span>
           </button>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Bell, Car, Settings, BarChart3, Megaphone } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 export default function Dashboard() {
   // Estado para controlar las secciones 
@@ -59,10 +61,12 @@ export default function Dashboard() {
             Gestiona la ficha de los vehículos y sus datos de importación
           </p>
           <div className="flex justify-center">
+            <Link to="/importaciones">
             <button className="bg-white text-gray-600 text-xs border border-gray-300 rounded-full px-4 py-1 flex items-center">
               Ir a importaciones
               <span className="ml-1 bg-gray-200 rounded-full h-4 w-4 flex items-center justify-center text-gray-600">&#62;</span>
             </button>
+            </Link>
           </div>
         </div>
         

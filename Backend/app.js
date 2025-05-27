@@ -15,8 +15,17 @@ import servicesProvided from "./src/routes/servicesProvided.js"
 import resgisterEmployeesRoute from "./src/routes/registerEmployee.js";
 import loginRoute from "./src/routes/login.js";
 import logoutRoute from "./src/routes/logout.js";
+import cors from 'cors';
 
 const app = express();
+
+app.use(
+  cors({
+    origin: "http://localhost:5173", // Dominio del cliente
+    credentials: true, // Permitir envío de cookies y credenciales
+  })
+);
+
 
 app.use(express.json());
 app.use(cookieParser()); // Que acepte cookies
