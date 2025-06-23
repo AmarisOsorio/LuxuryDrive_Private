@@ -35,6 +35,7 @@ sector automotriz de lujo.
 ├── .gitignore
 ├── package.json
 └── README.md              # Documentación del proyecto
+```
 
 ## ⚙ ¿Como ejecutar la aplicación localmente?
 
