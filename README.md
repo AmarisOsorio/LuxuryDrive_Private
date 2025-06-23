@@ -41,11 +41,14 @@ sector automotriz de lujo.
 
  - Clonar el repositorio
  - Acceder al proyecto
-   `cd nombre-del-proyecto`
+   `cd Frontend`
+   `cd Backend`
  - Instalar dependencias
    `npm install`
  - Ejecutar el proyecto
   `npm run dev`
+  `node index.js`
+
 
 ## 🛠️ Tecnologías y Librerías Usadas
 
