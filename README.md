@@ -39,12 +39,12 @@ sector automotriz de lujo.
 
 ## ⚙ ¿Como ejecutar la aplicación localmente?
 
- # Clonar el repositorio
- # Acceder al proyecto
+ - Clonar el repositorio
+ - Acceder al proyecto
    cd nombre-del-proyecto
- # Instalar dependencias
+ - Instalar dependencias
    npm install
-# Ejecutar el proyecto
+ - Ejecutar el proyecto
   npm run dev
 
 ## 🛠️ Tecnologías y Librerías Usadas
