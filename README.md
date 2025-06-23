@@ -21,22 +21,6 @@ sector automotriz de lujo.
 - Aplicación móvil innovadora.
 - Opción de compra directa desde la app
 
-
-## 🛠️ Tecnologías y Librerías Usadas
-
-| Tecnología        | Descripción                                      |
-|-------------------|--------------------------------------------------|
-| MongoDB Atlas     | Base de datos NoSQL en la nube                   |
-| Express.js        | Framework backend para Node.js                   |
-| React.js          | Librería para construir interfaces de usuario    |
-| Node.js           | Entorno de ejecución para JavaScript en el servidor |
-| Vite              | Empaquetador rápido para proyectos React         |
-| React Router DOM  | Manejo de rutas en SPA                           |
-| Tailwind CSS      | Framework de estilos utilitario                  |
-| JWT + Cookies     | Autenticación de usuarios                        |
-| Nodemailer        | Envío de correos electrónicos                    |
-
-
 ## 📦 Estructura del Proyecto
 
 ```bash
@@ -61,6 +45,23 @@ sector automotriz de lujo.
    npm install
 # Ejecutar el proyecto
   npm run dev
+
+## 🛠️ Tecnologías y Librerías Usadas
+
+| Tecnología        | Descripción                                      |
+|-------------------|--------------------------------------------------|
+| MongoDB Atlas     | Base de datos NoSQL en la nube                   |
+| Express.js        | Framework backend para Node.js                   |
+| React.js          | Librería para construir interfaces de usuario    |
+| Node.js           | Entorno de ejecución para JavaScript en el servidor |
+| Vite              | Empaquetador rápido para proyectos React         |
+| React Router DOM  | Manejo de rutas en SPA                           |
+| Tailwind CSS      | Framework de estilos utilitario                  |
+| JWT + Cookies     | Autenticación de usuarios                        |
+| Nodemailer        | Envío de correos electrónicos                    |
+
+
+
 
 
 ## 👥 Integrantes del Equipo
