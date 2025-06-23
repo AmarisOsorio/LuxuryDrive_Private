@@ -70,9 +70,10 @@ sector automotriz de lujo.
 
 ## 👥 Integrantes del Equipo
 
-| Nombre Completo       |                            |
-|-----------------------|----------------------------|
-| Amaris Osorio         |          Grupo 1 B         |
-| Edenilson Amaya       |          Grupo 1 B         |
-| José Luis Iraheta     |          Grupo 1 B         |
+| Nombre Completo                      |           Carnets         |
+|--------------------------------------|---------------------------|
+| Amaris Lourdes Osorio Canales        |          20200003         |
+| Edenilson Alexander Amaya Benitez    |          20200004         |
+| José Luis Iraheta Marroquín          |          20200149         |
+
 
