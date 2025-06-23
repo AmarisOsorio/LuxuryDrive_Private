@@ -41,11 +41,11 @@ sector automotriz de lujo.
 
  - Clonar el repositorio
  - Acceder al proyecto
-   cd nombre-del-proyecto
+   `cd nombre-del-proyecto`
  - Instalar dependencias
-   npm install
+   `npm install`
  - Ejecutar el proyecto
-  npm run dev
+  `npm run dev`
 
 ## 🛠️ Tecnologías y Librerías Usadas
 
